@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/fab_margin">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/image"
+        android:orientation="vertical"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="@dimen/fab_margin"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/person_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:text="lahore"
+            android:textColor="#000"
+            android:textSize="@dimen/fab_margin"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/person_address1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:text="lahore"
+            android:textColor="#000"
+            android:textSize="@dimen/fab_margin"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/person_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:text="03084021620"
+            android:textColor="#000"
+            android:textSize="@dimen/fab_margin"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/person_phone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:text="03084021620"
+            android:textColor="#000"
+            android:textSize="@dimen/fab_margin"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/person_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:text="example@gmail.com"
+            android:textColor="#000"
+            android:textSize="@dimen/fab_margin"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/person_email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:text="example@gmail.com"
+            android:textColor="#000"
+            android:textSize="@dimen/fab_margin"
+            tools:ignore="SpUsage"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

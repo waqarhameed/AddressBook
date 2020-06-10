@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Address Book</string>
+    <string name="action_delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="delete">Delete</string>
+    <string name="edit">edit</string>
+    <string name="change_image">Choice To Change Image </string>
+    <string name="save">Save</string>
+    <string name="pick_image">pick image</string>
+    <string name="exit">Exit</string>
+    <string name="phone_no">Phone No</string>
+    <string name="email">Email</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

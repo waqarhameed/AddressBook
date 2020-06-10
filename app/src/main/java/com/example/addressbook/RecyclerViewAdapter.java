@@ -16,7 +16,6 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 import static com.example.addressbook.R.layout.list_items;
